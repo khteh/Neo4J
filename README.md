@@ -57,16 +57,3 @@ $ neo4j stop
 ```
 $ neo4j-admin database dump <database> --to-path=/import/
 ```
-
-## Map the databases in postgresql.yml
-
-```
-            - name: POSTGRES_DB_1
-              value: AspNetCoreWebApi
-            - name: POSTGRES_DB_2
-              value: library
-            - name: POSTGRES_DB_3
-              value: school
-            - name: POSTGRES_DB_4
-              value: LangchainCheckpoint
-```
