@@ -10,6 +10,12 @@ Restore a dump to default database
 $ cypher-shell -a bolt://svc-neo4j-nodeport:7687
 ```
 
+- To show settings:
+
+```
+neo4j@neo4j> show settings;
+```
+
 - To show databases:
 
 ```
